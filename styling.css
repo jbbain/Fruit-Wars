@@ -1,0 +1,147 @@
+html{
+    height: 100%;
+    background: radial-gradient(circle, #fff, #ccc);
+    -webkit-background: radial-gradient(circle, #fff, #ccc);
+    -moz-background: radial-gradient(circle, #fff, #ccc);
+    -o-background: radial-gradient(circle, #fff, #ccc);
+}
+
+#container{
+    height: 600px;
+    width: 700px;
+    background-color: #000;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px ##e01818;
+    -moz-box-shadow: 0px 4px #e01818;
+    -webkit-box-shadow: 0px 4px #e01818;
+}
+
+#score{
+    background-color: #b7b7b7;
+    color: #e01818;
+    padding: 10px;
+    position:absolute;
+    left: 900px;
+    box-shadow: 0px 4px #e8e8e8;
+    -webkit-box-shadow: 0px 4px #e8e8e8;
+    -moz-box-shadow: 0px 4px #e8e8e8;
+}
+
+#correct{
+    position: absolute;
+    left: 290px;
+    background-color: #42e252;
+    color: white;
+    padding: 10px;
+    display: none;
+    
+}
+
+#wrong{
+    position: absolute;
+    left: 290px;
+    background-color: #DE401A;
+    color: white;
+    padding: 10px;
+    display: none;
+}
+
+#fruitContainer{
+    width: 650px;
+    height: 400px;
+    margin: 50px auto 10px auto;
+    background-color: white;
+    box-shadow: 0px 4px ##e2e2e2;
+    -webkit-box-shadow: 0px 4px #e2e2e2;
+    -moz-box-shadow: 0px 4px #e2e2e2;
+    font-size: 100px;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    line-height: 120px;
+    position: relative;
+    overflow: hidden;
+}
+
+#instruction{
+    width: 450px;
+    height: 50px;
+    background-color: #c02424;
+    color: white;
+    margin: 10px auto;
+    text-align:center;
+    line-height: 50px;
+    box-shadow: 0px 4px #801818;
+    -moz-box-shadow: 0px 4px #801818;
+    -webkit-box-shadow: 0px 4px #801818;
+}
+
+
+#start-reset{
+    width: 78px;
+    padding: 10px;
+    background-color: rgba(255,255,255, 0.5);
+    margin: 0px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 4px rgba(0,0,0,0.2);
+    text-align: center;
+    position: relative;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+}
+
+#livesLeft{
+    width: 107px;
+    padding: 10px;
+    position: absolute;
+    background-color: #b7b7b7;
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 4px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 4px rgba(0,0,0,0.2);
+   /* visibility: hidden; */
+    display: none;
+}
+
+#gameOver{
+    height: 200px;
+    width: 500px;
+    background: linear-gradient(#f3ca6b, #f37069);
+    -moz-background: linear-gradient(#f3ca6b, #f37069);
+    -webkit-background: linear-gradient(#f3ca6b, #f37069);
+    -o-background: linear-gradient(#f3ca6b, #f37069);
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 190px;
+    left: 390px;
+    z-index: 2;
+    display: none;
+}
+
+.lifesize{
+    width: 16px;
+    height: 16px;
+    margin: 0 9.4px;
+}
+
+.fruit{
+    display: none;
+    position: absolute;
+    
+}
+
+footer{
+    text-align: center;
+    color: rgba(85, 108, 143, 0.8);
+    font-size: 13px;
+}
